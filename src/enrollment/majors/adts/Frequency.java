@@ -1,0 +1,20 @@
+/* *****************************************************************************
+ *  Name:    Ada Lovelace
+ *  NetID:   alovelace
+ *  Precept: P00
+ *
+ *  Description:  Prints 'Hello, World' to the terminal window.
+ *                By tradition, this is everyone's first program.
+ *                Prof. Brian Kernighan initiated this tradition in 1974.
+ *
+ **************************************************************************** */
+
+public interface Frequency {
+  Integer get(String key);
+
+  boolean containsKey(String key);
+
+  void put(String key, Integer value);
+
+  void forEach(java.util.function.BiConsumer<String, Integer> operation);
+}
